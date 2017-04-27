@@ -3,6 +3,8 @@
 from django.test import RequestFactory
 from django.contrib.auth.models import AnonymousUser
 from .. import views
+import pytest
+pytestmark = pytest.mark.django_db
 
 
 class TestHomeViews:

@@ -1,0 +1,8 @@
+*.pyc
+.cache/
+.ropeproject/
+__pycache__/
+env/
+*.egg-info/
+.coverage*
+htmlcov/
