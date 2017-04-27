@@ -9,5 +9,5 @@ class TestHomeViews:
     def test_anonymous(self):
         req = RequestFactory().get('/')
         req.user = AnonymousUser()
-        res = views.BizCategoryView.as_view()(req)
+        res = views.IndexView.as_view()(req)
         assert res.status_code == 200

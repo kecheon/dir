@@ -5,5 +5,5 @@ from . import views
 
 
 urlpatterns = [
-    url(r'^$', views.BizCategoryView.as_view()),
+    url(r'^$', views.IndexView.as_view()),
 ]
